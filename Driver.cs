@@ -13,7 +13,7 @@ namespace test_kyu
             {
                 // Try initial values
                 Result[] initials = new Result[] { Result.Zero, Result.One };
-                var res = BellTest.Run(qsim, 1000, Result.Zero).Result;
+                var res = CHAM_64x128.Run(qsim, 1000, Result.Zero).Result;
                 
                 var (ct00, ct01, ct02, ct03) = res;
                 string strHex00 = Convert.ToString(ct00, 16);

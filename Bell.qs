@@ -85,7 +85,7 @@
         return ct;
     }
 
-    operation BellTest (count : Int, initial: Result) : (Int, Int, Int, Int)
+    operation CHAM_64x128 (count : Int, initial: Result) : (Int, Int, Int, Int)
     {
         mutable key = [0x0100, 0x0302, 0x0504, 0x0706, 0x0908, 0x0b0a, 0x0d0c, 0x0f0e];
         mutable pt = [0x1100, 0x3322, 0x5544, 0x7766];
