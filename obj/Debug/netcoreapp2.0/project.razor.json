@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/home/kyu/Micro_Q/Quantum/Samples/src/QS_CHAM/test_kyu/test_kyu.csproj",
+  "TargetFramework": "netcoreapp2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
