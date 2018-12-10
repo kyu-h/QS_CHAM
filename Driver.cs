@@ -1,4 +1,17 @@
-﻿using System;
+﻿//*********************************************************************************************
+//*********************************************************************************************
+//
+// Name            : CHAM
+// Author          : Kyuhwang An
+// Version         :
+// Copyright       : Your copyright notice
+// Description     : Implement of CHAM using Q#(Microsoft Quantum Language)
+// Homepage        : https://github.com/kyu-h
+//
+//*********************************************************************************************
+//*********************************************************************************************
+
+using System;
 
 using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;

@@ -1,14 +1,23 @@
-﻿namespace test_kyu
+﻿//*********************************************************************************************
+//*********************************************************************************************
+//
+// Name            : CHAM
+// Author          : Kyuhwang An
+// Version         :
+// Copyright       : Your copyright notice
+// Description     : Implement of CHAM using Q#(Microsoft Quantum Language)
+// Homepage        : https://github.com/kyu-h
+//
+//*********************************************************************************************
+//*********************************************************************************************
+
+namespace test_kyu
 {
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Primitive;
     open Microsoft.Quantum.Extensions.Math;
     open Microsoft.Quantum.Extensions.Convert;
     open Microsoft.Quantum.Extensions.Bitwise;
-
-    // function Message (msg : String) : Unit {
-
-    // }
 
     function ROL_64_128 (k : Int, x : Int) : (Int)
     {
